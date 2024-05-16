@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <!-- Enlazar el archivo CSS -->
+    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="icon" href="img/logo.ico">
+</head>
+<body>
+    <div class="login-container">
+        <!-- Ruta de la imagen de avatar -->
+        <img src="img/avatar.png" alt="Avatar" class="avatar">
+        <form id="loginForm" action="php/login.php" method="POST">
+            <h2>Iniciar sesión</h2>
+            <input type="text" name="correo" placeholder="Correo" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
+
+    <!-- Enlazar el archivo JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

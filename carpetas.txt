@@ -1,0 +1,16 @@
+proyecto/
+│
+├── css/
+│   
+│
+├── img/
+│   
+│   
+│
+├── js/
+│   
+│
+├── php/
+│   
+│
+└── index.html
